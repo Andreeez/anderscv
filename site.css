@@ -217,8 +217,7 @@ svg.intro {
     text-align: center;
     position: relative;
     float: left;
-   
-    
+
 }
 .front, .back {
     position: absolute;
@@ -257,7 +256,7 @@ svg.intro {
     font-size: 50px;
     margin-left: 50%;
     margin-right: 50%;
-    padding-top: 1em;
+    padding-top: 9.5em;
     }
 
     #navbar {
@@ -277,12 +276,12 @@ svg.intro {
         flex-direction: column;
         margin: auto;
         width: 100%;
-        background-color: red;
+        /* background-color: red; */
 
     }
     .information-anders-picture {
         margin: auto;
-        background-color: green;
+        /* background-color: green; */
     }
 
     .information-anders-text {
@@ -290,24 +289,21 @@ svg.intro {
         display: flex;
         flex-direction: column;
         margin: auto;
-        background-color: blue;
-      
-      
-
+        /* background-color: blue; */
     }
 
     .skillsList {
         display: flex;
         width: 100%;
-        background-color: yellow;
+        /* background-color: yellow; */
     }
-
 
     .contact {
         display: flex;
         width: 100%;
         flex-direction: column;
-        background-color: pink;
+        justify-content: center;
+        /* background-color: pink; */
     }
     
     .breakLine {
@@ -326,9 +322,7 @@ svg.intro {
       transform-style: preserve-3d;
       text-align: center;
       position: relative;
-      float: left;
-     
-      
+      float: left;  
   }
   .front, .back {
       position: absolute;
