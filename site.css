@@ -1,0 +1,400 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    /* background: #000000; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+  }
+
+#header {
+    display: flex;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("picture/backgroundpicture.jpg");
+    background-size: cover;
+  }
+
+#arrowdown {
+    font-size: 50px;
+    margin-left: 50%;
+    margin-right: 50%;
+    padding-top: 12em;
+    
+}
+
+/* #navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: inline;
+    background-color: #013A01;
+    color: white;
+    height: 4em;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    z-index: 1;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+   
+} */
+
+#content {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw; 
+    
+}
+/*   
+.information-anders-picture, .information-anders-text, #project, #skills, #contact {
+    margin-left: 2em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.information-anders-text {
+    margin-left: 2em;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+} */
+
+#information-anders {
+    width: 100%;
+    display: flex;
+    margin-top: 4em;
+    justify-content: center;
+
+}
+
+.skillsList ul {
+    list-style: none;
+}
+
+.information-anders-text {
+    width: 30em;
+    margin-left: 4em;
+}
+
+.contact {
+    margin-bottom: 7em;
+}
+.contactInfo {
+    float: left;
+}
+
+.contactLogo {
+    width: 100%;
+}
+
+.gitHubLogo {
+    float: left;
+    color: black;
+}
+.linkedInLogo{
+    margin-left: 2em;
+    color: rgba(0, 119, 181, 1);
+    float: left;
+}
+
+.linkedInLogo :active {
+    color: rgba(0, 121, 181, 1);
+}
+
+.instagramLogo {
+    float: left;
+    margin-left: 2em;
+    color: purple;
+  
+}
+.instagramLogo :hover{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.instagramLogo :active {
+    /* color: purple; */
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.mailTo {
+    color: black;
+    float: left;
+    margin-left: 2em;
+}
+
+.phoneLogo {
+    float: left;
+    margin-left: 2em;
+}
+
+.phoneLogo :hover {
+   color: red;
+}
+
+.phoneNumber {
+    float: left;
+    margin-left: 2em;
+}
+.breakLine {
+    width: 30em;
+    border: solid green 2px;
+}
+
+#project {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.1);
+
+}
+
+svg.intro {
+    background: linear-gradient(135deg, #aa3bb1, #582a7e);
+    max-width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 30px 50px -20px rgb(46, 6, 66);
+}
+
+.text {
+    display: none;
+  }
+
+    .text {
+      font-family: Arial, sans-serif;
+      font-size: 20px;
+      text-transform: uppercase;
+      display: block;
+    }
+
+    .text-stroke {
+        fill: none;
+        stroke: #51256f;
+        stroke-width: 2.8px;
+        stroke-dashoffset: -900;
+        stroke-dasharray: 900;
+        stroke-linecap: butt;
+        stroke-linejoin: round;
+        animation: dash 2.5s ease-in-out forwards;
+      }
+        .text-stroke:nth-child(2) {
+          animation-delay: .3s;
+        }
+        .text-stroke:nth-child(3) {
+          animation-delay: .9s;
+        }
+        .text-stroke-2 {
+          stroke: #f6bdfa;
+          animation-delay: 1.2s;
+        }
+        .text-stroke:nth-child(5) {
+          animation-delay: 1.5s;
+        }
+        .text-stroke:nth-child(6) {
+          animation-delay: 1.8s;
+        }
+      
+  @keyframes dash {
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+.card-container {
+      perspective: 700;
+  }
+
+
+.card-container button{
+    border: none;
+    
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+
+
+
+
+
+
+}
+.card {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    transition: all 0.6s ease;
+    transform-style: preserve-3d;
+    text-align: center;
+    position: relative;
+    float: left;
+   
+    
+}
+.front, .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    backface-visibility: hidden;
+}
+.back {
+    transform: rotateY(180deg);
+}
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+#skills {
+    border-top: 2px solid black;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    body {
+        width: 100%;
+        background-color: aqua;
+    }
+    #header {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    #arrowdown {
+    font-size: 50px;
+    margin-left: 50%;
+    margin-right: 50%;
+    padding-top: 1em;
+    }
+
+    #navbar {
+        max-width: 100vw;
+    }
+
+    #content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;       
+        
+    }
+
+    #information-anders {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+        background-color: red;
+
+    }
+    .information-anders-picture {
+        margin: auto;
+        background-color: green;
+    }
+
+    .information-anders-text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        background-color: blue;
+      
+      
+
+    }
+
+    .skillsList {
+        display: flex;
+        width: 100%;
+        background-color: yellow;
+    }
+
+
+    .contact {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        background-color: pink;
+    }
+    
+    .breakLine {
+        width: 20em;
+    }
+
+    /* .card-container {
+        perspective: 700;
+    }
+  .card {
+      margin: 20px;
+      width: 200px;
+      height: 200px;
+      
+      transition: all 0.6s ease;
+      transform-style: preserve-3d;
+      text-align: center;
+      position: relative;
+      float: left;
+     
+      
+  }
+  .front, .back {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 200px;
+      height: 200px;
+      backface-visibility: hidden;
+  }
+  .back {
+      transform: rotateY(180deg);
+  }
+  .card:click {
+      transform: rotateY(180deg);
+  } */
+}
+
+
+
+
+
+ 
+
+
+
+
+ 
+  
+  
